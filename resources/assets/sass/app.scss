@@ -7,3 +7,10 @@
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$fa-font-path: "../fonts/" !default;
+@import "~font-awesome/scss/font-awesome";
+
+// AdminLTE
+@import "~admin-lte/dist/css/adminlte.css";
+@import "~admin-lte/dist/css/skins/_all-skins.css";
